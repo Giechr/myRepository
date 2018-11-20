@@ -2,9 +2,15 @@
 
 1. What is a function literal?
 
+Answer:  A function literal is an expression that defines an unnamed function.
+
 2. What is the constructor?
 
+Answer: JS does not have class statements. JS solution for this is to use constructors, witch is a regular function with "new" added.
+
 3. What does the return statement do?
+
+Answer: The "return" statement ends the function and returns the final result. 
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -13,5 +19,9 @@
 		}
 		myFunction();
 
+				Answer: "inside my function"
+
 
 5. Briefly describe scope in JavaScript.
+
+Answer: We have 2 different types of scope. Global and local. If the variable is inside a function, then it's local and can only be accessed inside the function. If it's outside a function, then it's global and you can access it both inside and outside of a function.
